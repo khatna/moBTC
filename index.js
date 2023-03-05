@@ -25,3 +25,4 @@ var createTx = tx => {
 Socket.onmessage = e => {
     createTx(JSON.parse(e.data));
 };
+
