@@ -1,4 +1,4 @@
-var Socket = new WebSocket("wss://ws.mobtc.live");
+var Socket = new WebSocket("wss://wss.mobtc.live");
 
 // Add event listener
 var input = document.getElementById("input");
